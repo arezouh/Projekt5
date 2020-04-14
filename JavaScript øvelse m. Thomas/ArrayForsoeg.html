@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            
+            var colors = [ "black", "white", "red", "green"]; 
+            
+            function changeColor (Element, color) {
+                Element.style.backgroundColor = color;
+            }
+            
+            function printColors() {
+                var p = document.getElementById("colorsParagraph");
+                p.innerHTML += colors[0];
+                p.innerHTML += ","; 
+                p.innerHTML += colors[1];
+                p.innerHTML += ",";
+                p.innerHTML += colors[2];
+                p.innerHTML += ","; 
+                p.innerHTML += colors[3];
+                
+            }
+            
+        </script>
+    
+    </head>
+
+    <body onload="printColors" ()> 
+        <h1> Website Colors:</h1>
+        <p id="colorsParagraph"></p>
+    
+    <button onMouseOver="changeColor(this, colors[2])" onMouseOut="changeColor(this, colors[3])">Hej Med Dig</button>
+    <br>
+       <button onMouseOver="changeColor(this, colors[2])" onMouseOut="changeColor(this, colors[3])">Hej Med Dig</button>
+        <br>
+               <button onMouseOver="changeColor(this, colors[2])" onMouseOut="changeColor(this, colors[3])">Hej Med Dig</button>
+
+
+
+    </body>
+</html>

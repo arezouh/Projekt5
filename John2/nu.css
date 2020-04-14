@@ -1,0 +1,102 @@
+@media screen and (max-width:630px) {
+body {
+  margin: 0;
+  font-family: 'Noto Sans HK', sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: #C31414;
+  padding: 10px 10px;
+  align-self: center;
+}
+.arrow button {
+  background-color: #C31414;
+  font-size: 20px;
+  border: none;
+  color: #ffffff;
+  float: left;
+  margin-right: -10%;
+  padding: 1%;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #C31414;
+  border: none;
+  color: white;
+  float: left;
+  margin-right: -10%;
+  padding: 1%;
+}
+.container {
+  color: #ffffff;
+  text-align: center;
+  background-color: #646464;
+  margin-top: -6%;
+  width: 100%;
+  }
+  .Trophy img {
+    width: 6.25em;
+    height: 6.25em;
+    margin-top: 7%;
+    margin-left: 15%;
+    }
+hr.solid {
+  border-top: 3px solid #C31414;
+  }
+.Visesvedkassen h2 {
+  text-align: center;
+}
+.Bamse {
+  background-color: #white;
+  padding: 10px 10px;
+  text-align: center;
+  margin-top: 0.75em;
+  margin-bottom: 1.75em;
+}
+.Startknappen {
+font-size: 1em;
+font-family: 'Noto Sans HK';
+transition-duration: 0.4s;
+align-content: center;
+}
+.Startknappen button {
+  background-color:#73AE5F;
+  color: #fff;
+  border-radius: 0.75em;
+  border: 0.0625em solid #fff;
+  width: 18.25em;
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Noto Sans HK';
+  margin-top: 10%;
+  margin-left: 11%;
+  padding: 1%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+.button2 {
+  text-align: center;
+}
+.button2 button{
+  margin-top: 5%;
+  width: 50%;
+  background-color: #73AE5F;
+  border-radius: 0.75em;
+  color: #fff;
+  padding: 5px 5px;
+  justify-content: center;
+  border: 0.0625em solid #fff;
+  font-family: 'Noto Sans HK';
+  font-size: 16px;
+}
+.dekoration {
+  margin-bottom: 0.25em;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+  }
+}

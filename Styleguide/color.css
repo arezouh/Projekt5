@@ -1,0 +1,166 @@
+
+.red{
+  width: 320px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background: #C31414;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 20px;
+}
+
+.white{
+  width: 320px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background: #Ffffff;
+  margin: 20px;
+  text-align: center;
+  color: black;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 20px
+}
+
+.black{
+  width: 320px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background: #000000;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 20px;
+}
+
+.gray{
+  width: 320px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background: #646464;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 20px;
+}
+
+.green{
+  width: 320px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background:#73AE5F;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 20px;
+}
+
+.grayish{
+  width: 320px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background:#646464;
+  opacity: 50%;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 20px;
+}
+
+.blackish{
+  width: 320px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background: #000000;
+  opacity: 50%;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 20px;
+}
+
+.hovergreen{
+  width: 320px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background: #90AE3C;
+  margin: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 20px;
+}
+
+.hoverred{
+  width: 320px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background:  #8C1419;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 20px;
+}
+
+.hovergray{
+  width: 320px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background: #BABABA;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 20px;
+}
+
+.skriftred{
+  width: 320px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 12px;
+  background: #FF0707;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 20px;
+}
+
+
+
+.H1-color{
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 50px;
+  text-align: left;
+  margin: 10px;
+  }
+
+
+
+.row {
+ display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+ flex: 35%;
+ padding: 5px;
+}

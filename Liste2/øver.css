@@ -1,0 +1,226 @@
+
+@media screen and (max-width:630px) {
+body {
+  margin: 0;
+  font-family: 'Noto Sans HK', sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: #C31414;
+  padding: 0.625em 0.625em;
+  align-self: center;
+}
+.arrow button {
+  background-color: #C31414;
+  font-size: 1.25em;
+  border: none;
+  color: #ffffff;
+  float: left;
+  margin-right: -10%;
+  padding: 1%;
+  cursor: pointer;
+}
+.back-color{
+  background-color: #BABABA;
+  margin-top: -2.1875em;
+  background-position: center;
+  background-size: auto;
+  position: relative;
+}
+h1{
+  font-size: 2.4em;
+  font-family: 'Noto Sans HK';
+  text-align: center;
+  color: #ffffff;
+}
+h2{
+  color: #000000;
+  font-size: 1.4em;
+  color: #fff;
+  font-family: 'Noto Sans HK', sans-serif;
+  text-align: center;
+}
+.shop-item-title{
+  font-family: 'Noto Sans HK', sans-serif;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #fff;
+}
+.shop-item {
+  margin: 1.875em;
+}
+.shop-item-image {
+  height: 14.3em;
+}
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 0.3125em;
+  margin-right: 28%;
+}
+.shop-item-price {
+  flex-grow: 1;
+  color: #BABABA;
+  background: transparent;
+  border: none;
+}
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.content-section {
+  margin: 1em;
+  color: #ffffff;
+}
+.container {
+  max-width: 56.25em;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: .67em .67em;
+  cursor: pointer;
+}
+.btn-primary {
+  color: white;
+  background-color: #C31414;
+  border: none;
+  border-radius: .5em;
+  font-weight: bold;
+  margin-right: 5%;
+}
+.btn-primary:hover {
+  background-color: #2D9CDB;
+  border-style: solid;
+  border-color: red;
+}
+.cart-header {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #fff;
+}
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 0.0625em solid black;
+  margin-right: 1.5em;
+  padding-bottom: 0.625em;
+  margin-top: 0.625em;
+}
+.cart-row {
+  display: flex;
+}
+.cart-item {
+  width: 45%;
+  color: #fff;
+}
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #fff;
+}
+.cart-quantity {
+  width: 35%;
+}
+.cart-item-title {
+  color: #fff;
+  margin-left: .5em;
+  font-size: 1.2em;
+}
+.cart-item-image {
+  width: 4.6875em;
+  height: auto;
+  border-radius: 0.625em;
+}
+.btn-danger {
+  color: #ffffff;
+  background-color: #C31414;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+.btn-danger:hover {
+  background-color: #CC4C4C;
+}
+h3 {
+  font-size: 2em;
+  font-family: 'Noto Sans HK';
+  text-align: center;
+  color: #ffffff;
+}
+.cart-quantity-input {
+  height: 2.125em;
+  width: 3.125em;
+  border-radius: 0.3125em;
+  border: 0.0625em solid #56CCF2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 1.5625em;
+}
+.cart-row:last-child {
+  border-bottom: 0.0625em solid black;
+}
+.cart-row:last-child .cart-column {
+  border: none;
+}
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+.btn-purchase {
+  display: block;
+  margin: 2.5em auto 5em auto;
+  font-size: 1.75em;
+}
+.luk button {
+  background-color:#fff;
+  color: #000;
+  font-size: 1em;
+  font-family: 'Noto Sans HK';
+  text-decoration: none;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 20%;
+  transition-duration: 0.4s;
+  border-radius: 0.75em;
+  border: 0.0625em solid #000;
+  padding-left: 21.5%;
+  padding-right: 21.5%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  cursor: pointer;
+}
+.tab button{
+  background-color:#73AE5F;
+  color: #ffffff;
+  font-size: 1em;
+  font-family: 'Noto Sans HK';
+  text-decoration: none;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  margin-left: 20%;
+  transition-duration: 0.4s;
+  border-radius: 0.75em;
+  border: 0.0625em solid #ffffff;
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  cursor: pointer;
+}
+.tabcontent {
+  display: none;
+}
+div[class*="tabcontent"]:first-of-type {
+    display: block;
+  }
+}

@@ -1,0 +1,21 @@
+
+.fontbox{
+  padding: 20px;
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 12px;
+  background: #646464;
+  opacity: 50%;
+  margin: 20px;
+  text-align: center;
+  color: black;
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 80px;
+}
+
+.H1-skrifttype{
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 50px;
+  text-align: left;
+  margin: 25px;
+  }

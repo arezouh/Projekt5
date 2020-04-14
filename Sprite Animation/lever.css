@@ -1,0 +1,11 @@
+/* CSS for waver.html */
+.sprite {
+	width: 800px;
+	height: 400px;
+	background: url('images/Leverpostej.png') 0 0 no-repeat;
+	animation: play 1s steps(11) infinite;
+}
+@keyframes play {
+	0%{background-position:0;}
+   100% { background-position: -8800px; }
+}

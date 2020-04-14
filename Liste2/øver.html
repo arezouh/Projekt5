@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Varejagt</title>
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="øver.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="øver.js" async></script>
+    </head>
+    <body>
+      <div class="arrow">
+      <button onclick="goBack()">&#8592;</button>
+        <div class="header">
+          <img src="images/coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">
+        </div>
+      </div>
+        <div class="back-color">
+        <div id="London" class="tabcontent">
+        <section class="container content-section">
+          <h1>Udvælg nogle af de varer på <br> jeres indkøbsliste!</h1>
+            <h2>(Maks 6 vare)</h2>
+            <div class="shop-items">
+                <div class="shop-item">
+                    <span class="shop-item-title">Mælk</span>
+                    <img class="shop-item-image" src="images/mælk.jpg">
+                    <div class="shop-item-details">
+                      <span class="shop-item-price">5</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Vælg denne vare</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Leverpostej</span>
+                    <img class="shop-item-image" src="images/fransk.jpg">
+                    <div class="shop-item-details">
+                      <span class="shop-item-price">5</span>
+                        <button class="btn btn-primary shop-item-button"type="button">Vælg denne vare</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Juice</span>
+                    <img class="shop-item-image" src="images/juice.jpg">
+                    <div class="shop-item-details">
+                      <span class="shop-item-price">5</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Vælg denne vare</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Ost</span>
+                    <img class="shop-item-image" src="images/ost.jfif">
+                    <div class="shop-item-details">
+                      <span class="shop-item-price">5</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Vælg denne vare</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">WC-papir</span>
+                    <img class="shop-item-image" src="images/wc.jpg">
+                    <div class="shop-item-details">
+                      <span class="shop-item-price">5</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Vælg denne vare</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Æble</span>
+                    <img class="shop-item-image" src="images/æble.jpg">
+                    <div class="shop-item-details">
+                      <span class="shop-item-price">5</span>
+                        <button class="btn btn-primary shop-item-button" type="button">Vælg denne vare</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </div>
+      <div id="Paris" class="tabcontent">
+        <section class="container2 content-section">
+            <h3>Varejagt</h3>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">Vare</span>
+                <span class="cart-price cart-header cart-column">Point</span>
+                <span class="cart-quantity cart-header cart-column">Valg</span>
+            </div>
+            <div class="cart-items">
+          </div>
+        </section>
+        </div>
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Næste</button>
+      </div>
+      <div class="luk">
+        <button class="luk" onclick="document.location = 'index.html'">Luk Spillet</button>
+     </div>
+   </div>
+      <script>
+      function goBack(){
+        window.history.back();
+      }
+      </script>
+    </body>
+</html>

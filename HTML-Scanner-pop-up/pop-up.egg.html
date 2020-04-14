@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link href="pop-up.egg.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Varejagt</title>
+</head>
+<body>
+  <div class="arrow">
+  <button onclick="goBack()">&#8592;</button>
+    <div class="header">
+      <img src="images/coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">
+    </div>
+  </div>
+<div class="pop">
+  <div class="form-popup" id="myForm">
+    <div class="sprite"></div>
+      <div class="info">INFO</div>
+      <button type="submit" class="btn cancel" onclick="closeForm()">+</button>
+  </div>
+</div>
+<script>
+function goBack(){
+  window.history.back();
+}
+
+function openForm() {
+  document.getElementById("myForm").style.display = "block";
+  }
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+  }
+</script>
+</body>
+</html>

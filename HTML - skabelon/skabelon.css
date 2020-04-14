@@ -1,0 +1,33 @@
+@media screen and (max-width:630px) {
+  body {
+    margin: 0;
+    font-family: 'Noto Sans HK', sans-serif;
+  }
+  .header {
+    overflow: hidden;
+    background-color: #C31414;
+    padding: 10px 10px;
+    align-self: center;
+  }
+  .header a {
+    float: right;
+    color: white;
+    padding: 40%;
+    font-size: 25px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  .header a.logo {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .button {
+    background-color: #C31414;
+    border: none;
+    color: white;
+    float: left;
+    margin-right: -10%;
+    padding: 1%;
+  }
+
+}

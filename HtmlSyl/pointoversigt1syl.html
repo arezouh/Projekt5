@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link href="pointoversigtsyl.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Pointoversigt</title>
+</head>
+<body>
+  <div class="arrow">
+  <button onclick="goBack()">&#8592;</button>
+  <div class="header">
+    <div class="header">
+      <img src="coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">
+    </div>
+</div>
+</div>
+    <div class="container">
+        <div class= "header1"> </div>
+          <h1> Pointoversigt </h1>
+    </div>
+    <div class="container1">
+        <div class="img"></div>
+        <h2> XX point</h2>
+        <img src="trophy.png" alt="pokal, symboliserer ens præmie"> <!--Unsplash-->
+        <hr class="solid">
+    </div>
+     <div class="container2">
+         <div class= "header2"></div>
+         <h2> GODT GÅET!</h2>
+         <p> Gem dine point til næste gang.</p>
+    </div>
+    <div class="container3">
+        <div class= "header3"> </div>
+          <h3> ELLER </h3>
+          <p> Indløs ved kassen for en valgfri bamse. </p>
+        </div>
+<div class="popup" id="popup-1">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="close-btn" onclick="togglePopup()">&times;</div>
+    <h1>Øv!</h1>
+    <p> Du har desværre ikke nok point til at indløse præmien</p>
+  </div>
+</div>
+<div class="knap">
+<button onclick="togglePopup()">Indløs præmie</button>
+</div>
+<script>
+function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}
+function goBack(){
+  window.history.back();
+}
+</script>
+<div class="container5">
+<button class="button">Luk Spillet</button>
+</div>
+</body>
+</html>

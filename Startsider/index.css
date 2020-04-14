@@ -1,0 +1,148 @@
+body {
+  margin:0;
+  font-family: 'Noto Sans HK', sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: #C31414;
+  padding: 0.625em 0.625em;
+  align-self: center;
+}
+.arrow button {
+  width: 25;
+  background-color: #C31414;
+  font-size: 20px;
+  border: none;
+  color: #ffffff;
+  float: left;
+  margin-right: -10%;
+  padding: 1%;
+  cursor: pointer;
+}
+/*General*/
+.content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.tekst {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+/*Index*/
+.wrapper-index {
+  margin: auto;
+  min-width: 275px;
+  max-width: 630px;
+  min-height: calc(100vh - 81.28px);
+  background-image: url(images/startside.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.links-knapper {
+  width: 100%;
+}
+.links-knapper a {
+  background-color: #C31414;
+  color: white;
+  text-decoration: none;
+}
+.kasse button {
+  background-color: #C31414;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'Noto Sans HK';
+  width: 80%;
+  margin-left: 9%;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px solid #ffffff;
+  padding: 15px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.kasse1 {
+  background-color: #C31414;
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  padding: 2px;
+  margin-bottom: 30px;
+  cursor: text;
+}
+.kasse-sort {
+  background: rgba(0, 0, 0, 0.4);
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color: #FF0707;
+  border-radius: 12px;
+  border: 1px solid #ffffff;
+  margin-bottom: 30px;
+  margin-top: 15%;
+  padding: 0,0%;
+}
+.links-knapper p {
+  text-align: center;
+  color: white;
+}
+.links-knapper hr {
+  text-align: center;
+  width: 80%;
+  margin-bottom: 40px;
+}
+label {
+  text-align: center;
+  color: white;
+}
+input {
+  border: 2px solid white;
+  border-radius: 12px;
+}
+/*Velkommen*/
+.wrapper-velkommen {
+  margin: auto;
+  min-width: 275px;
+  max-width: 630px;
+  min-height: calc(100vh - 81.28px);
+  background-image: url(images/medarbejdere.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+.aldersgruppe {
+  display: flex;
+  width: 80%;
+  margin: auto;
+}
+.alder {
+  background-color: #73AE5F;
+  border-radius: 12px;
+  border: 1px solid white;
+  width: 30%;
+}
+.alder:not(:last-child){
+  margin-right: 5%;
+  }
+.næste button {
+  background-color: #73AE5F;
+  color: #ffffff;
+  font-size: 1em;
+  font-family: 'Noto Sans HK';
+  text-decoration: none;
+  margin-top: 10%;
+  margin-left: 12%;
+  transition-duration: 0.4s;
+  border-radius: 0.75em;
+  border: 0.0625em solid #ffffff;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 1%;
+  }
+}

@@ -1,0 +1,36 @@
+.grid-ikoner {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 300px 300px 300px ;
+  grid-gap: 15px;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+.grid-ikoner > div {
+  background-color: #BABABA;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.parskrift{
+  font-family: 'Noto Sans HK', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: -40px;
+  color: #ffffff;
+}
+
+
+#items{
+ overflow-x: scroll;
+ width: auto;
+ }
+ .item{
+    display: inline-block;
+    width: 400px;
+    height: 280px;
+
+ }

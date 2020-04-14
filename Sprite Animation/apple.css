@@ -1,0 +1,11 @@
+/* CSS for waver.html */
+.sprite {
+	width: 300px;
+	height: 300px;
+	background: url('images/Apple.gif') 0 0 no-repeat;
+	animation: play 1m steps(29) infinite;
+}
+@keyframes play {
+	0%{background-position:0;}
+   100% { background-position: -10000px; }
+}

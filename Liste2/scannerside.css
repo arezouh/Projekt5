@@ -1,0 +1,133 @@
+@media screen and (max-width:630px) {
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans HK', sans-serif;
+  background-image: url("images/madhylder.png");
+  background-size: cover;
+}
+.header {
+  overflow: hidden;
+  background-color: #C31414;
+  padding: 0.625em 0.625em;
+  align-self: center;
+}
+.arrow button {
+  background-color: #C31414;
+  font-size: 20px;
+  border: none;
+  color: #ffffff;
+  float: left;
+  margin-right: -10%;
+  padding: 1%;
+  cursor: pointer;
+}
+h1{
+  font-size: 2.5em;
+  font-family: 'Noto Sans HK';
+  text-align: center;
+  color: #ffffff;
+}
+.xxxxxx {
+  background-color: #000000;
+  opacity: 0.6;
+  color: #ffffff;
+  border-radius: 1.125em;
+  border: 0.0625em solid #ffffff;
+  text-align: center;
+  width: 40%;
+  font-size: 1.25em;
+  margin-left: 30%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  }
+#container {
+  margin: 0px auto;
+  width: 300px;
+  height: 200px;
+  border: 10px #333 solid;
+}
+#videoElement {
+  width: 300px;
+  height: 200px;
+  background-color: #666;
+}
+.knap button {
+  margin-top: 5%;
+  height: 50%;
+}
+.billedeknap button {
+  background-color:#73AE5F;
+  color: #ffffff;
+  font-size: 1em;
+  font-family: 'Noto Sans HK';
+  text-decoration: none;
+  margin-top: 10%;
+  margin-left: 9%;
+  transition-duration: 0.4s;
+  border-radius: 0.75em;
+  border: 0.0625em solid #ffffff;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-bottom: 1%;
+}
+.tekst {
+  background-color: #000000;
+  opacity: 0.6;
+  width: 55%;
+  color: #ffffff;
+  border-radius: 1.125em;
+  border: 0.0625em solid #ffffff;
+  text-align: center;
+  margin-left: 25%;
+  margin-bottom: 10%;
+  margin-top: 20%;
+}
+.popup .overlay {
+  position:fixed;
+  top:0px;
+  left:0px;
+  width:100vw;
+  height:100vh;
+  background:rgba(0,0,0,0.7);
+  z-index:1;
+  display:none;
+}
+.popup .content {
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%) scale(0);
+  background:#fff;
+  width:370px;
+  height:400px;
+  z-index:2;
+  text-align:center;
+  padding:20px;
+  box-sizing:border-box;
+  }
+.popup .close-btn {
+  cursor:pointer;
+  position:fixed;
+  right:20px;
+  top:20px;
+  width:30px;
+  height:30px;
+  background:#000;
+  color:#fff;
+  font-size:25px;
+  font-weight:600;
+  line-height:30px;
+  text-align:center;
+  border-radius:50%;
+}
+.popup.active .overlay {
+  display:block;
+}
+.popup.active .content {
+  transition:all 300ms ease-in-out;
+  transform:translate(-50%,-50%) scale(1);
+}
+#popup-1 p{
+  font-size: 30px;
+}

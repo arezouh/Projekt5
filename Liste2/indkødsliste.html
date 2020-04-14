@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link href="indkødsliste.css" rel="stylesheet" type="text/css">
+  <link href="font.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title> Varejagt</title>
+</head>
+<body>
+  <header>
+    <div class="arrow">
+    <button onclick="goBack()">&#8592;</button>
+      <div class="header">
+        <img src="images/coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">
+      </div>
+    </div>
+</header>
+<main>
+  <div class="back-image">
+  <div class="front-text">
+    Udvælg nogle af de vare som er du din indkøbsliste.
+  </div>
+  <div class=".front-h2">
+    Maks. 6 vare:
+  </div>
+
+   <label class="container">
+    <input type="checkbox" checked="checked">
+    <span class="checkmark">Æble</span>
+  </label>
+  <label class="container">
+   <input type="checkbox">
+   <span class="checkmark">Leverpostej</span>
+ </label>
+ <label class="container">
+   <input type="checkbox">
+   <span class="checkmark">Ost</span>
+ </label>
+ <label class="container">
+   <input type="checkbox">
+   <span class="checkmark">Mælk</span>
+ </label>
+ <label class="container">
+   <input type="checkbox">
+   <span class="checkmark">WC-papir</span>
+ </label>
+ <label class="container">
+   <input type="checkbox">
+   <span class="checkmark">Kattemad</span>
+ </label>
+ <label class="container">
+   <input type="checkbox">
+   <span class="checkmark">cookies</span>
+ </label>
+ <label class="container">
+   <input type="checkbox">
+   <span class="checkmark">iskage</span>
+ </label>
+ </div>
+
+</main>
+
+<script>
+function goBack(){
+  window.history.back();
+}
+</script>
+
+</body>
+</html>

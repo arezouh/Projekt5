@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link href="scannerside.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Varejagt</title>
+</head>
+<body>
+  <div class="arrow">
+  <button onclick="goBack()">&#8592;</button>
+    <div class="header">
+      <img src="images/coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">
+    </div>
+  </div>
+<h1>Find varen fra din
+    <br>liste og scan
+    <br>stregkoden!</h1>
+</div>
+<input type="submit" class="xxxxxx" value="xxxxxx">
+
+<div id="container">
+  <video autoplay="true" id="videoElement">
+  </video>
+
+  <div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup()">&times;</div>
+      <div class="sprite"></div>
+      <style>
+      @import "pop-up.juice.css";
+      </style>
+      <p>"INFO"<p>
+    </div>
+  </div>
+
+  <div class="knap">
+    <button onclick="togglePopup()"><strong>Juice</strong> <br>1234567890</button>
+    <button onclick="togglePopup()"><strong>Pasta</strong> <br>1234567890</button>
+    <button onclick="togglePopup()"><strong>Ketchup</strong> <br>1234567890</button>
+    <button onclick="togglePopup()"><strong>Leverpostej</strong> <br>1234567890</button>
+    <button onclick="togglePopup()"><strong>Agurk</strong> <br>1234567890</button>
+    <button onclick="togglePopup()"><strong>Æbler</strong> <br>1234567890</button>
+  </div>
+<div class="billedeknap">
+  <button onclick="knap">Tag Billede</button>
+</div>
+<input type="submit" class="tekst" value="Denne vare er 5 point værd.">
+<script>
+function togglePopup(){
+  document.getElementById("popup-1").classList.toggle("active");
+}
+
+var video = document.querySelector("#videoElement");
+
+if (navigator.mediaDevices.getUserMedia) {
+   navigator.mediaDevices.getUserMedia({video: true})
+  .then(function (stream){
+    video.srcObject = stream;
+  })
+  .catch(function (err0r){
+    console.log("Something went wrong!");
+  })
+}
+function goBack(){
+  window.history.back();
+}
+</script>
+</body>
+</html>
