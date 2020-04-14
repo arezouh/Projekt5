@@ -66,11 +66,11 @@ body {
 }
 .kasse1 {
   background-color: #C31414;
-  width: 80%;
+  width: 75%;
   margin: auto;
   border-radius: 20px;
   border: 1px solid #ffffff;
-  padding: 2px;
+  padding: 20px;
   margin-bottom: 30px;
   cursor: text;
 }
@@ -84,11 +84,24 @@ body {
   border: 1px solid #ffffff;
   margin-bottom: 30px;
   margin-top: 15%;
-  padding: 0,0%;
+}
+.gruppe{
+  border: 1px solid #ffffff;
+  background-color: #C31414;
+  width: 80%;
+  text-align: center;
+  border-radius: 16px;
+  border: 1px solid #ffffff;
+  padding: 0.5em;
+  padding-left: 30%;
+  padding-right: 30%;
+  margin-left: 6.5%;
+  font-size: 15px;
 }
 .links-knapper p {
   text-align: center;
   color: white;
+  font-size: 20px;
 }
 .links-knapper hr {
   text-align: center;
@@ -98,10 +111,15 @@ body {
 label {
   text-align: center;
   color: white;
+  margin-left: 5%;
 }
 input {
   border: 2px solid white;
-  border-radius: 12px;
+  width: 70%;
+  background-color: #C31414;
+  border-top: #fff;
+  border-right: #fff;
+  border-left: #fff;
 }
 /*Velkommen*/
 .wrapper-velkommen {
