@@ -1,0 +1,124 @@
+@media screen and (max-width:630px) {
+body {
+  margin: 0;
+  font-family: 'Noto Sans HK', sans-serif;
+}
+.header {
+  overflow: hidden;
+  background-color: #C31414;
+  padding: 10px 10px;
+  align-self: center;
+}
+.button {
+  background-color: #C31414;
+  border: none;
+  color: white;
+  float: left;
+  margin-right: -10%;
+  padding: 1%;
+}
+body {
+  background-image: url(images/medarbejdere.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+  div.tekst {
+    margin: 10%;
+    color:white;
+    text-align: center;
+    font-size:2em;
+    font-family: 'Noto Sans HK';
+  }
+div.velkommen {
+  background-color: #000000;
+  opacity: 0.4;
+  border-radius: 1.125em;
+  border: 0.0625em solid #ffffff;
+  padding: 1.8em;
+  margin: 1.875em;
+  width: 18.75em;
+  height: 0.625em;
+}
+div.te {
+  margin: -8%;
+  color:#C31414;
+  text-align: center;
+  font-size:1em;
+  font-family: 'Noto Sans HK';
+}
+.kasse-sort {
+  background: rgba(0, 0, 0, 0.4);
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  color:#C31414;
+  border-radius: 20px;
+  border: 1px solid #C31414;
+  padding: 2px;
+  margin-bottom: 30px;
+  cursor: text;
+}
+.aldre {
+  background-color:#73AE5F ;
+  border-radius: 0.75em;
+  border: 0.0625em solid #ffffff;
+  padding: 0.875em, 2em;
+  margin: 1.875em;
+  width: 5em;
+  height: 5em;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1em;
+  font-family: 'Noto Sans HK';
+  padding: 1.5625em;
+  transition-duration: 0.4s;
+}
+
+.gruppe{
+  border: 1px solid #ffffff;
+  background-color: #C31414;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+  border: 1px solid #ffffff;
+  padding: 0.5em;
+  margin-left:34%;
+  font-size: 15px;
+}
+
+.container {
+  display: block;
+  position: relative;
+  padding: 7px;
+  margin: 15%;
+  cursor: pointer;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Noto Sans HK', sans-serif;
+  color: #000000;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 280px;
+  background-color: #eee;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  border-style: solid;
+  border-color: red;
+}
+}

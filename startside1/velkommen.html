@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link href="index.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Varejagt</title>
+</head>
+<body>
+    <div class="arrow">
+    <button onclick="goBack()">&#8592;</button>
+      <div class="header">
+        <img src="coopde.png"  style="width:25%; margin-left: 38%;" alt="hvidt logo">
+      </div>
+    </div>
+  <main>
+    <div class="wrapper-velkommen">
+      <div class="content">
+        <div class="tekst">
+          <p>Indtast dit navn og vælg aldersgruppe</p>
+        </div>
+      </a>
+        <div class="kasse-sort">
+          <p>For 0-2 årige er der ikke behov for en konto, da spillets vilkår er anderledes</p>
+        </div>
+        <div class="links-knapper">
+          <form class="kasse1" action="#" method="post">
+            <label for="fname">Navn:</label>
+            <input class="input" type="text" value="">
+          </div>
+            <div class="links-knapper">
+                  <label class="gruppe" for="aldersgruppe">Aldersgruppe:</label>
+                  <br>
+                  <br>
+                  <div class="aldersgruppe">
+                    <div class="alder">
+                      <p>0 - 2<br>år</p>
+                    </div>
+                    <div class="alder">
+                      <p>3 - 5<br>år</p>
+                    </div>
+                    <div class="alder">
+                      <p>6 - 8<br>år</p>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="næste">
+                  <button class="luk" onclick="document.location = 'Velkommen2.html'">Næste</button>
+                </div>
+          </form>
+        </div>
+      </div>
+  </main>
+<script>
+function goBack(){
+  window.history.back();
+  }
+</script>
+</body>
+</html>
